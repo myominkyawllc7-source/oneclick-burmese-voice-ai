@@ -1,0 +1,1 @@
+ALTER TABLE `generation_jobs` ADD `stage` varchar(40) DEFAULT 'queued' NOT NULL;
